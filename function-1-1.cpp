@@ -7,8 +7,9 @@ void print_matrix(int array[10][10]) {
         for (int j = 0; j < 10; j++) {
             cout << array[i][j];
             if (j != 9) {
-                cout << endl;
+                cout << " ";
             }
         }
+        cout << endl;
     }
 }
