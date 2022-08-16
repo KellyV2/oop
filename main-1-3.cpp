@@ -2,7 +2,7 @@
 
 using namespace std;
 
-extern int max_sub_sum(int *nums,int length);
+extern void copy_integers(int old_array[],int new_array[],int length);
 
 int main() {
     return 0;
