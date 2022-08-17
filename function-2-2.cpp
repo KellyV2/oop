@@ -20,5 +20,5 @@ int max_sub_sum(int *nums,int length) {
         }
         maxSum2 = 0;
     }
-    return sum;
+    return maxSum1;
 }
