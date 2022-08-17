@@ -9,7 +9,7 @@ int main() {
     int new_array[3][2];
     int length = 3;
 
-    copy_integers(old_array, new_array, length);
+    copy_integers(*old_array, *new_array, length);
 
     return 0;
 }
