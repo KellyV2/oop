@@ -1,7 +1,3 @@
-#include <iostream>
-
-using namespace std;
-
 extern int max_sub_sum(int *nums,int length);
 
 int main() {
