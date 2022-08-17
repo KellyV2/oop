@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-using namespace std
+using namespace std;
 
 void string_2d_copy(string first[][2], string second[][2], int n) {
     for (int i = 0; i < n; i++) {
